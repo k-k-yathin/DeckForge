@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global base styles */
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+/* Subtle grid background for landing hero */
+.hero-grid {
+  background-image: radial-gradient(circle at 1px 1px, rgb(148 163 184 / 0.15) 1px, transparent 0);
+  background-size: 24px 24px;
+}
